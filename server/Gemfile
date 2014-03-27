@@ -13,18 +13,13 @@ gem 'json', '1.8.1'
 group :development do
 end
 
-group :development, :test do
-end
-
 group :test do
   gem "rack-test", "0.6.2"
-  gem "rake", "10.2.1"
 end
 
-# Heroku production. pg is the PostgreSQL and rails_12factor gem, which is used by Heroku
-# to serve static assets such as images and stylesheets.
+# Heroku production. pg is the PostgreSQL
 group :production do
-  gem 'pg', '0.15.1'
+  gem 'pg', '0.17.1'
 end
 
 # Use ActiveModel has_secure_password
