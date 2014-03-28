@@ -8,7 +8,7 @@ Environment setup
 	$ rvm install 2.1.0
 
 - For the Gemset to be created, you just need to change directory to the "server/". RVM will detect the .ruby-gemset file, it will create a
-  new gemset named DailySoccerServer and finally it will make it the current one everytime you cd into server.
+  new gemset named DailySoccerServer and finally it will make it the current one everytime you cd into "server/".
 
 
 - Now let's install all the gems:
@@ -34,8 +34,7 @@ Working locally
 Deploying to Heroku
 ===================
 
-- Heroku reference documentation:
-	https://devcenter.heroku.com/categories/heroku-architecture
+- Heroku reference documentation: https://devcenter.heroku.com/categories/heroku-architecture
 
 - After commiting everything to your master branch, use the provided script serverdeploy.sh. 
   This script deploys only the "server/" folder using a git subtree push. It's a nasty hack :)
