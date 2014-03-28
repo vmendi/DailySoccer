@@ -7,12 +7,9 @@ Environment setup
 	
 	$ rvm install 2.1.0
 
-- For the Gemset to be created, you need to change directory to the "server/":
+- For the Gemset to be created, you just need to change directory to the "server/". RVM will detect the .ruby-gemset file, it will create a
+  new gemset named DailySoccerServer and finally it will make it the current one everytime you cd into server.
 
-	$ DailySoccer git:(master) cd server
-
-	ruby-2.1.0 - #gemset created /Users/vmendi/.rvm/gems/ruby-2.1.0@DailySoccerServer
-	ruby-2.1.0 - #generating DailySoccerServer wrappers - please wait
 
 - Now let's install all the gems:
 
