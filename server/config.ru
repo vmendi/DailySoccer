@@ -1,4 +1,5 @@
 require './app/main_rest_api.rb'
+require './app/experiments.rb'
 
 #
 # https://devcenter.heroku.com/articles/getting-started-with-ruby#specify-ruby-version-and-declare-dependencies-with-a-gemfile

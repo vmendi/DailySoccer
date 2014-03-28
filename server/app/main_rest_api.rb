@@ -8,10 +8,12 @@ get '/' do
   send_file File.join(settings.public_folder, 'index.html')
 end
 
-# class API < Sinatra::Base
-  get '/sushi.json' do
-    content_type :json
-    
-    {:sushi => ["Maguro", "Hamachi", "Uni", "Saba", "Ebi", "Sake", "Tai"]}.to_json
-  end
-# end
+post '/login' do
+  @email = params[:post][:email]
+
+  "THIS_IS_THE_ACCESS_TOKEN"
+end
+
+get '/user_info?session_token=:session_token' do
+  params[:session_token]
+end
