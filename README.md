@@ -9,7 +9,7 @@ Environment setup
 
 - For the Gemset to be created, you need to change directory to the "server/":
 
-	$ DailySoccer git:(master) ✗ cd server
+	$ DailySoccer git:(master) cd server
 
 	ruby-2.1.0 - #gemset created /Users/vmendi/.rvm/gems/ruby-2.1.0@DailySoccerServer
 	ruby-2.1.0 - #generating DailySoccerServer wrappers - please wait
@@ -26,8 +26,8 @@ Working locally
 
 	$ puma
 
-Puma will read by default a config file in config/puma.rb, and then launch our rack app
-using config.ru.
+  Puma will read by default a config file in config/puma.rb, and then launch our rack app
+  using config.ru.
 
 - If you want to locally emulate what happens in Heroku, install and use foreman:
 
@@ -38,7 +38,6 @@ Deploying to Heroku
 ===================
 
 - Heroku reference documentation:
-
 	https://devcenter.heroku.com/categories/heroku-architecture
 
 - After commiting everything to your master branch, use the provided script serverdeploy.sh. 
