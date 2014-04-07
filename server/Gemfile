@@ -5,16 +5,22 @@ ruby '2.1.0'
 #ruby=ruby-2.1.0
 #ruby-gemset=DailySoccerServer
 
-gem 'puma', "2.8.1"
+gem 'puma', '2.8.1'
 
 gem 'sinatra', '1.4.4'
 gem 'json', '1.8.1'
 
+gem 'sequel', '4.8.0'
+gem 'sinatra-cross_origin', '0.3.2'
+
 group :development do
+  gem 'sqlite3'
+  gem 'rerun'
+  gem 'ruby-debug-ide'
 end
 
 group :test do
-  gem "rack-test", "0.6.2"
+  gem 'rack-test', '0.6.2'
 end
 
 # Heroku production. pg is the PostgreSQL
@@ -25,8 +31,6 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
-# Use unicorn as the app server
-# gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

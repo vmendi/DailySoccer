@@ -2,10 +2,9 @@
 #
 # https://github.com/puma/puma
 # https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#rackup
-#
+
 port        ENV['PORT']     || 3000
 environment ENV['RACK_ENV'] || 'development'
-
 
 # 2 processes (asumming we will be using a 2 core machine), 16 threads max per core
 threads 8,16

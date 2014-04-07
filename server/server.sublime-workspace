@@ -1,0 +1,607 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"or",
+				"origin_whitelist"
+			],
+			[
+				"sin",
+				"Sinatra"
+			],
+			[
+				"public",
+				"public_folder"
+			],
+			[
+				"pub",
+				"public_folder"
+			],
+			[
+				"lo",
+				"logging"
+			],
+			[
+				"se",
+				"session_token"
+			],
+			[
+				"test",
+				"test_erb"
+			],
+			[
+				"pu",
+				"public_folder"
+			],
+			[
+				"uni",
+				"unicorn"
+			],
+			[
+				"o",
+				"options"
+			],
+			[
+				"the",
+				"the_url"
+			],
+			[
+				"get",
+				"getAccessToken"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"acce",
+				"access_token"
+			],
+			[
+				"location",
+				"locationHref"
+			],
+			[
+				"acti",
+				"activateCover"
+			],
+			[
+				"is",
+				"isPhoneGap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.ru",
+			"settings":
+			{
+				"buffer_size": 200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/config.rb",
+			"settings":
+			{
+				"buffer_size": 1894,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/main_rest_api.rb",
+			"settings":
+			{
+				"buffer_size": 666,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login.sh",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix",
+				"name": "curl --data \"email=value1&password=value2\" http://"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 701,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/vmendi/.zshrc",
+		"/Users/vmendi/Documents/DailySoccer/server/app/model/model.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/model/model.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/main_rest_api.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/ping.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/server.sublime-project",
+		"/Users/vmendi/Documents/DailySoccer/server/server.sublime-workspace",
+		"/Users/vmendi/Documents/DailySoccer/server/app/main_rest_api.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/Rakefile",
+		"/Users/vmendi/Documents/DailySoccer/server/config/puma.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/migrate.sh",
+		"/Users/vmendi/Documents/DailySoccer/server/db/001_create_users.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/Procfile",
+		"/Users/vmendi/Documents/DailySoccer/server/Gemfile",
+		"/Users/vmendi/Documents/DailySoccer/server/db/002_create_leches.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/app/views/layout.erb",
+		"/Users/vmendi/Documents/DailySoccer/server/app/views/ping.erb",
+		"/Users/vmendi/Documents/DailySoccer/server/config.ru",
+		"/Users/vmendi/Documents/DailySoccer/server/deploy.sh",
+		"/Users/vmendi/Documents/DailySoccer/README.md",
+		"/Users/vmendi/Documents/DailySoccer/server/app/experiments.rb",
+		"/Users/vmendi/Documents/DailySoccer/server/.gemrc",
+		"/Users/vmendi/Documents/DailySoccer/server/public/index.html",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/public/index.html",
+		"/Users/vmendi/Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-settings",
+		"/Users/vmendi/Documents/DailySoccer/serverdeploy.sh",
+		"/Users/vmendi/Documents/DailySoccer/serverlog.sg",
+		"/Users/vmendi/Documents/DailySoccer/server/rest_main.rb",
+		"/Users/vmendi/.rvm/gems/ruby-2.1.0@rubinius/environment",
+		"/Users/vmendi/Documents/BetCards/Server/routes.coffee",
+		"/Users/vmendi/Documents/BetCards/Server/dbcontext.coffee",
+		"/Users/vmendi/Documents/BetCards/Server/app.coffee",
+		"/Volumes/Erlang/uninstall.tool",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/Luxury Collection.xcodeproj/xcuserdata/vmendi.xcuserdatad/xcschemes/xcschememanagement.plist",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/Luxury Collection.xcodeproj/project.pbxproj",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/Luxury Collection.xcodeproj/xcuserdata/vmendi.xcuserdatad/xcschemes/Luxury Collection.xcscheme",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/Luxury Collection.xcodeproj/xcuserdata/vmendi.xcuserdatad/xcschemes/PhoneGapClient.xcscheme",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/Luxury Collection.xcodeproj/project.xcworkspace/xcuserdata/vmendi.xcuserdatad/UserInterfaceState.xcuserstate",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/Luxury Collection.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/www/config.xml",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/PhoneGapClient/config.xml",
+		"/Users/vmendi/Documents/csr.txt",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/app.coffee",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/config/current_env.coffee",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/Luxury Collection/config.xml",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/cakefile",
+		"/Users/vmendi/Documents/BetCards/setaliases.sh",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/lib/betableLogin.coffee",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/controllers/cover_controller.coffee",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/cordova/console.log",
+		"/Users/vmendi/Downloads/futbolstars20140225.log",
+		"/Users/vmendi/Documents/PhonegapTest/platforms/ios/www/phonegap.js",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/models/user.coffee",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/models/coll.coffee",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/models/box.coffee",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/config/config.coffee",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/config/production_sandbox.coffee",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/config/development.coffee",
+		"/Users/vmendi/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/vmendi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/vmendi/Documents/PhonegapTest/www/index.html",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/slug-phonegap.json",
+		"/Users/vmendi/Documents/PhonegapTest/platforms/ios/cordova/console.log",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/slug.json",
+		"/Users/vmendi/Documents/PhonegapTest/www/js/index.js",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/platforms/ios/cordova/PhoneGapClient/platforms/ios/cordova/console.log",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/PhoneGapClient/platforms/ios/cordova/console.log",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/css/cover.styl",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/_www/index.html",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/cordova/console.log",
+		"/Users/vmendi/Documents/BetCards/PhoneGapClient/_www/spec.html",
+		"/Users/vmendi/Documents/BetCards/leches/www/index.html",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/css/layout.styl",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/css/home.styl",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/views/home.eco",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/package.json",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/README.md",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/npm-debug.log",
+		"/Users/vmendi/Documents/BetCards/Server/package.json",
+		"/Users/vmendi/Documents/BetCards/deployclient.sh",
+		"/Users/vmendi/Documents/BetCards/Server/README.md",
+		"/Users/vmendi/Documents/BetCards/Server/node-dev",
+		"/Users/vmendi/Unity/FootballStar/Assets/Plugins/Android/AndroidManifest.xml",
+		"/Users/vmendi/.android/debug.keystore",
+		"/Users/vmendi/Documents/BetCards/Server/config/environments.coffee",
+		"/Users/vmendi/Documents/BetCards/Server/node_modules/async/lib/async.js",
+		"/Users/vmendi/Documents/BetCards/Server/.nvmrc",
+		"/Users/vmendi/Documents/BetCards/SpineMobileClient/app/coll_def.coffee",
+		"/Users/vmendi/Documents/BetCards/PhoneGap-2.1.0/changelog",
+		"/Users/vmendi/Documents/borrame/Gemfile",
+		"/Users/vmendi/Documents/RailsTut/spec/requests/user_pages_spec.rb",
+		"/Users/vmendi/Documents/RailsTut/app/views/users/show.html.erb",
+		"/Users/vmendi/Documents/RailsTut/app/views/layouts/application.html.erb",
+		"/Users/vmendi/Documents/RailsTut/app/assets/stylesheets/custom.css.scss",
+		"/Users/vmendi/Documents/RailsTut/config/routes.rb",
+		"/Users/vmendi/Documents/RailsTut/app/views/users/new.html.erb",
+		"/Users/vmendi/Documents/RailsTut/app/views/static_pages/home.html.erb",
+		"/Users/vmendi/Documents/RailsTut/app/controllers/users_controller.rb",
+		"/Users/vmendi/Documents/RailsTut/Gemfile",
+		"/Users/vmendi/Documents/RailsTut/spec/factories.rb",
+		"/Users/vmendi/Documents/RailsTut/app/controllers/user_pages_spec.rb",
+		"/Users/vmendi/Documents/RailsTut/Rakefile",
+		"/Users/vmendi/Documents/RailsTut/db/migrate/20140210052550_create_users.rb",
+		"/Users/vmendi/Documents/RailsTut/cd",
+		"/Users/vmendi/Documents/RailsTut/app/views/layouts/_footer.html.erb",
+		"/Users/vmendi/Documents/RailsTut/app/views/layouts/_header.html.erb",
+		"/Users/vmendi/Documents/RailsTut/app/views/layouts/_shim.html.erb",
+		"/Users/vmendi/Documents/RailsTut/app/helpers/application_helper.rb",
+		"/Users/vmendi/Documents/RailsTut/app/controllers/application_controller.rb",
+		"/Users/vmendi/Documents/RailsTut/app/assets/stylesheets/application.css",
+		"/Users/vmendi/Documents/RailsTut/app/assets/javascripts/application.js",
+		"/Users/vmendi/Documents/RailsTut/config/application.rb",
+		"/Users/vmendi/Documents/RailsTut/spec/requests/static_pages_spec.rb",
+		"/Users/vmendi/Documents/RailsTut/app/helpers/static_pages_helper.rb",
+		"/Users/vmendi/Documents/RailsTut/db/migrate/20140212225251_add_password_digest_to_users.rb",
+		"/Users/vmendi/.zlogin",
+		"/Users/vmendi/.profile",
+		"/Users/vmendi/Downloads/prueba.coffee",
+		"/Users/vmendi/.viminfo",
+		"/Users/vmendi/.gitconfig",
+		"/Users/vmendi/.mongorc.js",
+		"/Users/vmendi/.s3cfg",
+		"/Users/vmendi/.zsh-update",
+		"/Users/vmendi/.zsh_history",
+		"/Users/vmendi/Library/Preferences/com.apple.LaunchServices.plist",
+		"/Users/vmendi/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/vmendi/Documents/RailsTut/log/development.log",
+		"/Users/vmendi/Documents/RailsTut/log/test.log"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/vmendi/Documents/BetCards/PhoneGapClient",
+			"/Users/vmendi/Documents/BetCards",
+			"/Users/vmendi/Documents/BetCards/Server",
+			"/Users/vmendi/Documents/BetCards/SpineMobileClient/app",
+			"/Users/vmendi/Documents/BetCards/Server",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"folders",
+			"prueba",
+			"DailyFantasySoccer",
+			"PhoneGapClient",
+			"icon-40@2x",
+			"icon-40@2x.png",
+			"Phonegap",
+			"Phonegapclient",
+			"UIViewControllerBasedStatusBarAppearance",
+			"UIWebViewBounce",
+			"async",
+			"app.",
+			"highl",
+			"app.",
+			"HERE",
+			"isPhoneGap",
+			"app.",
+			"app",
+			"app =",
+			"app.",
+			"browserLogin",
+			"isPhoneGap",
+			"deviceRead",
+			"log",
+			"refresh",
+			"reload",
+			"log",
+			"cordova",
+			"jade",
+			"\n/Users/vmendi/Documents/",
+			"/Users/vmendi/Documents/",
+			"async",
+			"h1",
+			"open w"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Luxury Collection"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.ru",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1109,
+								1109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/main_rest_api.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "login.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"auto_name": "curl --data \"email=value1&password=value2\" http://",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 240.0
+	},
+	"project": "server.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"cus",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"use",
+				"app/models/user.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

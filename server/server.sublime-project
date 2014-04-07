@@ -1,0 +1,31 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": ".",
+
+      "folder_exclude_patterns":
+      [
+        ".git",
+        ".idea",
+        ".bundle"
+      ],
+      "file_exclude_patterns":
+      [
+        "*.sublime-workspace",
+        "*.sublime-project",
+        "Gemfile.lock",
+        ".gitignore",
+        ".gemrc",
+        ".ruby-*"
+      ]
+		}
+	],
+	"settings":
+	{
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true,
+		"trim_trailing_white_space_on_save": true
+	}
+}

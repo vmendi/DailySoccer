@@ -1,0 +1,1 @@
+sequel -m db/ sqlite://db/dailysoccer.db

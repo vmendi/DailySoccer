@@ -1,12 +1,12 @@
-require './app/main_rest_api.rb'
-require './app/experiments.rb'
+require 'sinatra'
+require 'sequel'
 
-#
-# https://devcenter.heroku.com/articles/getting-started-with-ruby#specify-ruby-version-and-declare-dependencies-with-a-gemfile
-#
-# By default, Ruby buffers its output to stdout. To take advantage of Heroku’s realtime logging, 
-# you will need to disable this buffering to have log messages sent straight to Logplex. To disable 
-# this buffering add this to your config.ru:
-$stdout.sync = true
+require './config/config'
+require './app/main_rest_api'
+require './app/ping'
 
+# TODO: Explain this
+DB.disconnect
+
+# Launch our Sinatra app!
 run Sinatra::Application
